@@ -16,7 +16,6 @@
         android:layout_height="51dp"
         android:backgroundTint="#071540"
         android:text="Открыть камеру"
-        android:text1="Игорь Ковыков"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
