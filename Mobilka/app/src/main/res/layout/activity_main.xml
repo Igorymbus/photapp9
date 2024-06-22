@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".MainActivity">
+
+<LinearLayout
+android:id="@+id/linearLayout"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:orientation="horizontal"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="1" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="2" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="3" />
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/linearLayout2"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_marginTop="20dp"
+android:orientation="horizontal"
+app:layout_constraintBottom_toBottomOf="parent"
+
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+app:layout_constraintVertical_bias="0.0">
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="4" />
+
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="5" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="6" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_marginTop="20dp"
+android:orientation="horizontal"
+app:layout_constraintBottom_toBottomOf="parent"
+
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+
+app:layout_constraintVertical_bias="0.0"
+app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+<Button
+    android:id="@+id/button7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="7" />
+
+Никита Нишенко, [14.06.2024 15:05]
+<Button
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="8" />
+
+<Button
+    android:id="@+id/button9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="9" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_marginTop="150dp"
+android:orientation="horizontal"
+app:layout_constraintBottom_toBottomOf="parent"
+
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+app:layout_constraintVertical_bias="0.0">
+
+<Button
+    android:id="@+id/button10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="*" />
+
+<Button
+    android:id="@+id/button12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="-" />
+
+<Button
+    android:id="@+id/button14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:text="0" />
+
+<Button
+    android:id="@+id/button11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="/" />
+
+<Button
+    android:id="@+id/button13"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="+" />
+</LinearLayout>
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintBaseline_toTopOf="parent"
+    >
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+    android:text="TextView" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="bottom|end"
+    android:text="0"
+    android:textSize="50sp" />
+
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_marginTop="10dp"
+android:orientation="horizontal"
+app:layout_constraintBottom_toBottomOf="parent"
+
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+
+app:layout_constraintVertical_bias="0.0">
+
+<Button
+    android:id="@+id/button16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Результат" />
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
